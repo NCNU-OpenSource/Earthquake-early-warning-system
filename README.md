@@ -18,6 +18,7 @@
 
 四、系統流程圖
 
+![image](https://github.com/NCNU-OpenSource/Earthquake-early-warning-system/blob/master/1..png)
  
 圖一 系統流程圖
 
@@ -29,8 +30,12 @@
     在電路實作的部分，先參照Raspberry Pi 3的接腳圖(如圖二)，在麵包板上接上LED、電阻和蜂鳴器，並供電和接地，(如圖三)。
     在程式撰寫的部分，用Python撰寫所有程式。先分別寫LED和蜂鳴器的程式碼，再來用Django架設伺服器進行連線處理，最後將所有功能集合在一起，當接收到地震資訊時，LED和蜂鳴器會發出警示提醒大家快速逃生。
     在實作過程遇到的困難為不知道如何傳資訊給Raspberry Pi 3，解決方法為用Django進行傳輸。
+    
+![image](https://github.com/NCNU-OpenSource/Earthquake-early-warning-system/blob/master/2..png)
  
 圖二 Raspberry Pi 3的接腳圖
+
+ ![image](https://github.com/NCNU-OpenSource/Earthquake-early-warning-system/blob/master/3..png)
  
 圖三 電路圖
 
@@ -38,9 +43,15 @@
 
 因為地震的預警系統無法進行地震分級，需要等到中央氣象局統計完整個地震資料後，才能獲得地震級數，所以我們又多做了這個網頁(如圖四)。首先，我們先看地圖中紅色的球，此點代表震央，球距離地圖的高度代表地震的深度，球上的數字則代表規模，柱狀圖依照下方震度對照表代表各地震度大小(如圖五)，我們可以用滑鼠對地圖進行拖移、放大、縮小，如果想要看更多地層資訊，可以勾選上方的斷層、地形、土壤液化等相關選項(如圖六)，最後我們可以點右上方的月曆，選擇不同日期觀看不同時間地震的資訊。
  
+![image](https://github.com/NCNU-OpenSource/Earthquake-early-warning-system/blob/master/4..png)
+ 
 圖四 網頁
+
+![image](https://github.com/NCNU-OpenSource/Earthquake-early-warning-system/blob/master/5..png)
  
 圖五 地震資訊(震央、震度)
+
+ ![image](https://github.com/NCNU-OpenSource/Earthquake-early-warning-system/blob/master/6..png)
  
 圖六 地震資訊(斷層、地形、土壤液化)
 
