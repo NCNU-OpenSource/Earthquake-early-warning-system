@@ -57,17 +57,17 @@
 
 七、工作分配構想：李恩賢、張秝榕、陳昊、周霈菱
 
-	材料準備：張秝榕、周霈菱
-	程式撰寫：李恩賢、陳昊
-	文件撰寫、PPT製作：張秝榕、周霈菱
-	電路圖實作與繪製：張秝榕、周霈菱
-	影片製作：李恩賢、張秝榕、陳昊、周霈菱
+# 材料準備：張秝榕、周霈菱
+# 程式撰寫：李恩賢、陳昊
+# 文件撰寫、PPT製作：張秝榕、周霈菱
+# 電路圖實作與繪製：張秝榕、周霈菱
+# 影片製作：李恩賢、張秝榕、陳昊、周霈菱
 
 八、影片連結：https://www.youtube.com/watch?v=HkXT5slSXOw&feature=youtu.be
 
 九、參考來源
 
-1.【接腳圖】http://magicjackting.pixnet.net/blog/post/128014810
-2.【硬pi製作】https://sites.google.com/site/raspberrypidiy/basic/gpioled
-3.【Driving a buzzer in python】https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=13955
-4.【Writing tour first Django app】https://docs.djangoproject.com/en/2.0/intro/tutorial01/
+# 【接腳圖】http://magicjackting.pixnet.net/blog/post/128014810
+# 【硬pi製作】https://sites.google.com/site/raspberrypidiy/basic/gpioled
+# 【Driving a buzzer in python】https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=13955
+# 【Writing tour first Django app】https://docs.djangoproject.com/en/2.0/intro/tutorial01/
